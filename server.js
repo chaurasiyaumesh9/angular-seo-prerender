@@ -15,7 +15,11 @@ app.get('*', function(req, res){
 	res.sendfile('./public/index.html');
 });
 
-app.listen(8081);
-console.log("Go Prerender Go!");
+var port = process.env.PORT || 8081;
+
+app.listen(port, function(){
+	console.log('listening @ port : ' + port);
+});
+
 
 module.exports = app;
