@@ -2,7 +2,10 @@
   "name": "Angular-SEO-Prerender",
   "description": "...",
   "version": "0.0.1",
-  "private": "true",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
     "express": "latest",
     "prerender-node": "latest"
