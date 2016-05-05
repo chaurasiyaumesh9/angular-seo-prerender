@@ -54,5 +54,5 @@ function featuresController($scope) {
         pageTitle : 'Features',
         pageDescripton: 'Check out some of our awesome features!'
     };
-	$scope.message = "Features";
+	$scope.message = "About Us";
 }
